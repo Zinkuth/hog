@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html{
+    background-image: url('images/hogwarts_school.jpg');
+    height: 100%; width: 100%; background-repeat: no-repeat;
+	background-size: cover; background-attachment: fixed;
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+    position: absolute;
+     top: 41%;left: 45%;right: 20%; transform: translate(-40%, -45%); width: 1090px;
+    height: 860px; box-shadow: 0 3px 25px #000;
+  }
+.glass {
+    width: 100%; height: 99.9%; padding: 40px; box-sizing: border-box;
+    background: rgba(226, 226, 226, 0.1);
+}
+
+.button {
+  background-color: #8A2BE2;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  border-radius: 12px;
+}
